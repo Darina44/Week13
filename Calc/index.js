@@ -1,23 +1,23 @@
-function addition() {
+function add() {
     const firstNumber = prompt('первое слагаемое', '');
     const secondNumber = prompt('второе слагаемое', '');
     alert(`Результат: ${+firstNumber + +secondNumber}`);
 }
 
-function subtraction() {
+function subtract() {
     const firstNumber = prompt('уменьшаемое', '');
     const secondNumber = prompt('вычитаемое', '');
     alert(`Результат: ${+firstNumber - +secondNumber}`);
 }
 
-function multiplication() {
+function multiply() {
     const firstNumber = prompt('первый множитель', '');
     const secondNumber = prompt('второй множитель', '');
     alert(`Результат: ${+firstNumber * +secondNumber}`);
 }
 
-function division() {
+function divide() {
     const firstNumber = prompt('делимое', '');
-    const secondNumber = prompt('делитель;', '');
+    const secondNumber = prompt('делитель', '');
     alert(`Результат: ${+firstNumber / +secondNumber}`);
 }
